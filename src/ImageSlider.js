@@ -10,10 +10,7 @@ import React, { Component } from 'react';
  
    render() {
     return (
-      <div
-        className="cell"
-        style={{backgroundColor: this.backgroundColor()}}
-        onClick={this.stateColor}>
+      <div>
       </div>
     )
   }

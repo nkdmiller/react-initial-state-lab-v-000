@@ -4,15 +4,10 @@ import React, { Component } from 'react';
    constructor(props) {
     super(props)
       this.state = {
-      color: props.value
+      currentSlideIndex: 0
       }
   }
-     stateColor = () => (
-      this.setState({color: '#333'})
-    )
-     backgroundColor = () => (
-      this.state.color
-    )
+ 
    render() {
     return (
       <div

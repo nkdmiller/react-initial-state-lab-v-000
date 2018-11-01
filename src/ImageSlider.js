@@ -11,7 +11,7 @@ import React, { Component } from 'react';
    render() {
     return (
       <div>
-      {
+      I am on slide {this.props.currentSlideIndex}
       </div>
     )
   }
